@@ -14,7 +14,3 @@ This project demonstrates a **Simple Linear Regression** model to predict **Sala
   - Visualize data distribution and relationship
   - Train Simple Linear Regression model
 
----
-
-## Folder Structure
-
