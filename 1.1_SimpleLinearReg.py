@@ -22,13 +22,13 @@ X = df_sal.iloc[:, :1]  # independent
 y = df_sal.iloc[:, 1:]  # dependent
      
 # Relationship between Salary and Experience
-plt.figure(figsize=(8,5))  # تنظیم اندازه نمودار
+plt.figure(figsize=(8,5))
 plt.scatter(df_sal['YearsExperience'], df_sal['Salary'], color='lightcoral', s=80, alpha=0.7)
 plt.title('Salary vs Experience', fontsize=14, fontweight='bold')
 plt.xlabel('Years of Experience', fontsize=12)
 plt.ylabel('Salary', fontsize=12)
-plt.grid(True, linestyle='--', alpha=0.5)  # اضافه کردن خطوط شبکه
-plt.box(False)  # حذف کادر اطراف نمودار
+plt.grid(True, linestyle='--', alpha=0.5)
+plt.box(False)
 plt.show()
      
 # Splitting dataset into test/train
