@@ -13,7 +13,6 @@ This project demonstrates a **Simple Linear Regression** model to predict **Sala
   - Load and explore dataset
   - Visualize data distribution and relationship
   - Train Simple Linear Regression model
-  - Evaluate using R² and visualization
 
 ---
 
